@@ -12,21 +12,24 @@ def repeat(string, nb=2)
 end
 
 def start_of_word(string, n)
-    if n == 1
-        return string[0]
-    else
-        return string[0..n-1]
-    end
+    return string[0..n-1]
 end
 
 def first_word(string)
-    n = 0
-    string.each do |char|
-        unless char == " "
-            n += 1
-        end
-        
-    end
-    return string[0..n]
+    string = string.split
+    return string[0]
 end
-puts first_word("hoogeek house")
+
+def titleize(string)
+    word_tab = string.split
+    word_tab.map! do |word|
+        if word.length > 3 || word == word_tab[0]
+            word = word.capitalize
+        else 
+            word = word.downcase
+        end
+    end
+
+    return word_tab.join(' ')
+end
+print titleize("tru hoogeek house tru truk")
