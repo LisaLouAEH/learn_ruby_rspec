@@ -1,6 +1,9 @@
 Test First Ruby -- RSpec 3 Edition
 ==========
 
+## Collaboration THP between
+Mallone(https://github.com/macdesu) and Lisa-Lou
+
 ### Set up instructions
 
 1. Fork this repo
