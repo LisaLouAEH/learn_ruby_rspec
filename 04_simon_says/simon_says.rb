@@ -32,4 +32,3 @@ def titleize(string)
 
     return word_tab.join(' ')
 end
-print titleize("tru hoogeek house tru truk")
