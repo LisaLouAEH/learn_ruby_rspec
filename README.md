@@ -1,6 +1,7 @@
 Test First Ruby -- RSpec 3 Edition
 ==========
-colaboration THP between Mallone and Lisa-Lou
+
+## Collaboration THP between Mallone(https://github.com/macdesu) and Lisa-Lou
 
 ### Set up instructions
 
